@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do Lists</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <!-- Bootstrap CDN -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <!-- To Do Design -->
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 offset-lg-3">
+            <div class="input-box">
+              <h2 class="mb-3">Input Your To Do Lists</h2>
+              <div class="form-floating mb-3">
+                <input
+                  type="text"
+                  class="form-control do-value"
+                  id="floatingInput"
+                  placeholder="Write Your Do's"
+                />
+                <label for="floatingInput">Write Your Do's</label>
+              </div>
+              <button class="btn btn-primary create" id="create-me">
+                Create
+              </button>
+            </div>
+            <div class="table-box mt-3">
+              <table class="table table-dark table-striped"></table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JavaScript Links -->
+    <script src="./app/data.js"></script>
+    <script src="./app/fucntions.js"></script>
+    <script src="./app/main.js"></script>
+  </body>
+</html>
